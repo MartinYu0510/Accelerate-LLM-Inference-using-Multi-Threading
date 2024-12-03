@@ -2,7 +2,7 @@
 .PHONY: all
 
 # rename with your uid, make sure no space after your uid
-UID = 3036064416
+UID = 3
 
 # Default target
 all: prepare parallel
