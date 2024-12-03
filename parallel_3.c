@@ -1,8 +1,8 @@
 /*
 * PLEASE WRITE DOWN FOLLOWING INFO BEFORE SUBMISSION
-* FILE NAME: parallel_3036064416.c
-* NAME: Ma Tin Yu
-* UID:  3036064416
+* FILE NAME: parallel_3.c
+* NAME: 
+* UID:  
 * Development Platform: Vscode (workbench2)
 * Remark: The implementations, i.e. especially the design of lines 170-194 is inspired from two youtube videos: https://  www.youtube.com/watch?v=_n2hE2gyPxU&t=921s and https://www.youtube.com/watch?v=7i9z4CRYLAE&t=374s&ab_channel=CodeVault . These two videos help me a lot when implementing thread pools on taking input from the api functions and then store them into an array with first-in-first-out feature that the thread will take the left-most work and then do something related to the work, which is stored in an object consisting of the method and instant variables.
 The implementation use mutex and conditional variable because I cannot handle the semaphore correctly.
